@@ -28,14 +28,14 @@ nav li{
 	margin-top: 20px;
 }
 .btn{
-    background-color: #f05f5c;
+    background-color: #EB1D36;
     padding: 7px 28px;
     border-radius: 20px;
     border: none;
 }
 .btn:hover{
 	opacity:0.8;
-	background-color: #f05f5c!important;
+	background-color: #EB1D36!important;
 }
 #second{
 	padding: 80px 0px;
@@ -138,13 +138,13 @@ footer ul a{
 	color: #707070;
 }
 footer a{
-	color:#f05f5c;
+	color:#EB1D36;
 }
 footer a:hover{
-	color:#f05f5c;
+	color:#EB1D36;
 }
 footer ul a:hover{
-	color: #707070;
+	color: #A2B5BB;
 	text-decoration: none;
 	opacity: 0.8;
 }
@@ -183,9 +183,9 @@ footer ul{
 	padding: 80 0px;
 }
 .thetag{
-	color: #f05f5c;
+	color: #EB1D36;
     font-size: 16px;
-    border: 1px solid #f05f5c;
+    border: 1px solid #EB1D36;
     padding: 10px 18px;
     border-radius: 20px;
     display: inline-block;
@@ -195,7 +195,7 @@ footer ul{
 	margin-top:50px;
 }
 .apply{
-	background-color: #f9f9f9;
+	background-color: #F5EDDC;
 	padding: 44px;
 }
 .apply .btn{
@@ -208,8 +208,8 @@ footer ul{
 	text-align: center;
 }
 .btn2{
-    color: #707070;
-    border: 1px solid #707070;
+    color: #CFD2CF;
+    border: 1px solid #CFD2CF;
     padding: 10px 24px;
     border-radius: 20px;
     margin-top: 3px;
@@ -218,7 +218,7 @@ footer ul{
 .btn2:hover{
 	text-decoration: none;
 	opacity: 0.8;
-	color: #707070;
+	color: #CFD2CF;
 }
 #intro .contact{
 	height: auto;
@@ -238,7 +238,7 @@ footer ul{
 }
 #intro .contact .col-md-4 hr {
     color: white;
-    border-top: 2px solid #f05f5c;
+    border-top: 2px solid #EB1D36;
     width: 87px;
     margin-top: 24px;
     margin-bottom: 26px;
@@ -255,7 +255,7 @@ footer ul{
 	margin-bottom: 40px;
 }
 #contactcontent a{
-	color:#f05f5c;
+	color:#EB1D36;
 }
 #contactcontent a.btn{
 	color:white;
