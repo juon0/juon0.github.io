@@ -75,49 +75,38 @@
         </div>
     </div>
     </section>
-    <!--carousel區塊-->
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <!-- 1st -->
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="600">
-            <img src="pictures/inner_03.png" class="d-block w-100" alt="test1">  <!-- d-block w-100 圖像對齊  -->
-            <div class="carousel-caption d-none d-md-block"> <!--  .carousel-caption 替幻燈片添加字幕。.d-none 隱藏，並使用 .d-md-block 讓它們在中型的設備上重新顯示。  -->
-              <h5>歐客佬精品烘培坊</h5>
-              <p>中秋特賣 欲購從速唷！</p>
-            </div>
-          </div>
-          <!-- 2rd -->
-          <div class="carousel-item" data-bs-interval="600">
-            <img src="pictures/inner_hot_02.png" class="d-block w-100" alt="test2"> 
-            <div class="carousel-caption d-none d-md-block"> 
-              <h5>流心千層酥禮盒6入(含運)</h5>
-              <p>【台北晶華酒店】中秋特惠</p>
-            </div>
-          </div>
-          <!-- 3th -->
-          <div class="carousel-item">
-            <img src="pictures/inner_hot_01.png" class="d-block w-100" alt="test3">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>【雪珀花庭】- 焦糖野莓蛋糕</h5>
-              <p>七見櫻堂 甜點專賣</p>
-            </div>
-          </div>
-        </div>
-        <!-- button prev & next -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+    <!--list group-->
+    <ol class="list-group">
+        <div class="list-group">
+        <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+            甜點類別
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+        </div>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">所有甜點</div>
+          </div>
+          <span class="badge bg-primary rounded-pill">36</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">本日精選</div>
+          </div>
+          <span class="badge bg-primary rounded-pill">3</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">人氣推薦</div>
+          </div>
+          <span class="badge bg-primary rounded-pill">6</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">新品上市</div>
+            </div>
+            <span class="badge bg-primary rounded-pill">12</span>
+          </li>
+      </ol>
   <!--email的區塊-->
   <section id='email'>
     <div class="container">
